@@ -1,0 +1,42 @@
+body {
+	background: url(bg.jpg)	no-repeat center center fixed;
+	font-family: sans-serif;	
+}
+
+h1 {
+	color: blue;
+	font-size: 50px;
+	font-weight: normal;
+	margin-bottom: 0;
+
+}
+
+h2 {
+	color: white;
+	font-size: 18px;
+	margin-top: 0;
+
+}
+
+#bio {
+	color: white;
+	font-size: 14px;
+
+}
+
+.me {
+	height: 150px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: green;
+	margin-top: 150px; 
+
+}
+
+.about {
+
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+
+}
