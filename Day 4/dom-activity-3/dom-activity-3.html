@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM Activity 3</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>TUITT CODING BOOTCAMP</h1>
+		</header>
+		<main>
+			
+		<div>
+			<h2 class="inline-blocked"><i class="fa fa-tachometer">Dashboard</i></h2>
+			
+			<div class="dashboard-thumbnail">
+				<div id="postCircle" class="dashboard-circle">
+					<i class="fa fa-file-text-o fa-lg"></i>
+				</div>
+
+				<div class="inline-blocked">
+					<p class="dashboard-text">5</p>
+					<p class="dashboard-text">posts</p>
+				</div>		
+			
+			</div>
+
+			
+			<div class="dashboard-thumbnail">
+				<div id="imgCircle" class="dashboard-circle">
+					<i class="fa fa-picture-o fa-lg"></i>
+				</div>
+				<div class="inline-blocked">
+					<p class="dashboard-text">13</p>
+					<p class="dashboard-text">images</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div>
+			<h2><i class="fa fa-plus-circle">New Post</i></h2>
+			<form>
+				
+				<textarea id="postTitle"	name="Post"	placeholder="Enter your post title"></textarea>
+				<br>
+				<textarea id="postContent"	name="Content"	placeholder="Enter post content here"></textarea>
+				
+				<button id="btnPublish" class="btn btn-blue" type="submit">Publish</button>		
+
+				<div style="clear: both;"></div>	<!--work around for float(push elements after floating effect-->	
+			</form>
+		</div>
+
+		<div>
+
+			<h2><i class="fa fa-cloud-upload">Upload Image</i></h2>
+
+			<div class="img-set-holder">
+				
+			<a href="https://images.google.com"><img class="img-set" src="test.png" 	alt="Image" /></a>
+			<a href="https://images.google.com"><img class="img-set" src="test.png" 	alt="Image" /></a>
+			<a href="https://images.google.com"><img class="img-set" src="test.png" 	alt="Image" /></a>
+			<a href="https://images.google.com"><img class="img-set" src="test.png" 	alt="Image" /></a>
+			<a href="https://images.google.com"><img class="img-set" src="test.png" 	alt="Image" /></a>
+			
+			</div>
+
+			<br>
+			
+			<form name=""	method=""	action="">
+				<div id="btnForImg">
+					
+				<button id="btnBrowse" class="btn btn-blue" type="file">Browse</button>	
+				<button id="btnUpload" class="btn btn-green" type="submit">Upload</button>	
+				
+				</div>
+
+			</form>
+		</div>
+		</main>
+
+		<footer style="clear:both;">
+			<span>Tuitt Coding Bootcamp&copy; 2017</span>
+
+		</footer>
+
+
+
+	</div> <!--container-->
+
+		<script type="text/javascript" src="https://use.fontawesome.com/63421b52b2.js"></script>
+
+</body>
+</html>
