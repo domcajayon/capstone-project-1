@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+header {
+	background-color: lightgreen;
+	padding: 50px;
+
+}
+
+.logo {
+	font-size: 3em;
+	color: white;
+}
+
+.logo span {
+	color: darkblue;
+}
+
+nav	{
+	position: absolute;
+	right: 50px;
+}
+
+nav > ul {
+	position: relative;
+	bottom: 40px;
+}
+
+nav > ul > li {
+	display: inline-block;
+	margin-right: 20px;
+	background-color: blue;
+	padding: 10px;
+	border-radius: 50px;
+	width: 100px;
+	text-align: center;
+	color: white;
+}
+
+main {
+	background-color: skyblue;
+	width: 80%;
+	margin: 20px auto;
+	padding: 50px;
+}
+
+.grandparent {
+	background-color: darkgrey;
+	padding: 50px;
+	border-radius: 60px;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.parent {
+	background-color: grey;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.avatar {
+	width: 100px;
+	height: 100px;
+	border: 3px solid green;
+	border-radius: 10px;
+
+}
+
+.name {
+	position: absolute;
+	top:30px;
+	left: 130px;
+	width: 346px;
+	text-align: center;
+	padding: 10px;
+	background-color: green;
+}
+
+.certified {
+	/*position: absolute;*/
+	background-color: lightblue;
+	padding: 10px;
+	top: 20px;
+	right: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.back-to-top {
+	background-color: grey;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	color: white;
+}
+
+footer {
+	text-align: center;
+	background-color: darkgrey;
+	padding: 50px;
+	color: white;
+}

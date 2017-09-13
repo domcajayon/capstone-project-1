@@ -1,0 +1,44 @@
+/*resetting styles */
+
+* {
+	margin: 0px;
+}
+
+
+
+div	{
+	padding: 20px;
+}
+
+.grandparent {
+	background-color: skyblue;
+}
+
+.parent {
+	background-color: pink;
+	position: relative;
+	
+}
+
+p {
+	position: static;
+	padding-left: 50px;
+	height: 1000px;
+}
+
+input[name="submit"] {
+	margin-left: 20px;
+}
+
+strong	{
+	background-color: yellow;
+	position: fixed;
+	
+	right: 60px;
+	
+}
+
+img	{
+	width: 300px;
+	position: static;
+}
